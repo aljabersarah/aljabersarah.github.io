@@ -4,12 +4,7 @@ title: من أنا
 permalink: /about/
 ---
 
-عرف عن نفسك، من أنت؟ وماذا تعمل؟
-
-### معلومات أخرى
-
-هل لديك معلومات أخرى تريد مشاركتها؟
-
+سارة محمد الجابر، بكالوريوس علوم الحاسب الالي، مهتمة ب DFIRو Malware Analysis 
 ### لمراسلتي
-
-[email@domain.com](mailto:email@domain.com)
+Twitter: @s4o_o
+Email: Asksarahaljaber@outlook.com
