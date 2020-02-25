@@ -12,7 +12,7 @@ description: InfoSec | interested in DFIR and Malware Analysis
 # لإستخدام صورة هويتك في GitHub ضع https://github.com/<اسم_المستخدم>.png في المتغير، مثلا لهويتي الشخصية أستخدم:
 # avatar: https://github.com/a3ammar.png
 # ولإخفاء الصورة نهائيًا احذف الرابط من المتغير
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://media.istockphoto.com/vectors/fingerprint-with-lock-linear-icon-vector-id674759914?k=6&m=674759914&s=612x612&w=0&h=ZSlYY7RMwJO65P7oXDAntKdkkYngTCDGnQd_03kE32Y=
 
 
 #
@@ -25,12 +25,12 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: a3ammar/jekyll-now
+  github:  
   instagram:
   linkedin:
   pinterest:
   rss: # ضع أي قيمة هنا لتظهر أيقونة RSS
-  twitter: jekyllrb
+  twitter: s4o_o
   stackoverflow: # هويتك في stackoverflow مثلا: "users/50476/bart-kiers"
   youtube: # إما channel/<عنوان_قناتك_الطويل> أو user/<اسم-مستخدمك>
   googleplus: # رقم التعريف عندما تزور هويتك (كل ما يتبع plus.google.com/)
