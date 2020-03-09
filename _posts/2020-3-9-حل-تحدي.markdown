@@ -41,10 +41,11 @@
 
  !["Alerts "](https://i.ibb.co/hCLhSGv/2020-01-30-traffic-analysis-exercise-alerts.jpg)
  
+### `  ETPRO TROJAN Tordal/Hancitor/Chanitor checkin `
 
-<code> ETPRO TROJAN Tordal/Hancitor/Chanitor checkin </code>
+### `  ETPRO TROJAN Hancitor encrypted playloade Jan 17 (1) `
 
-<code>ETPRO TROJAN Hancitor encrypted playloade Jan 17 (1) </code>
+
 
 Hancitor هذا النوع من البرمجيات الخبيثة يعد  حصان طروادة (Trojan Horse)، والذي تكون جزء من برنامج اخر قمت بتحمليه عن طريق الانترنت او ملف من مرفقات الإيميل. 
 
