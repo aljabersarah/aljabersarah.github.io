@@ -40,8 +40,7 @@
 
 <p align="center">
  !["Alerts "](https://i.ibb.co/hCLhSGv/2020-01-30-traffic-analysis-exercise-alerts.jpg)
-*Fig. 1:  التنبيهات (Alerts from snort)
-*
+  *Fig. 1:  التنبيهات (Alerts from snort)
 </p>
 
 <code> ETPRO TROJAN Tordal/Hancitor/Chanitor checkin </code>
@@ -59,7 +58,8 @@ Hancitor يكون جزء من مستند Word يتم تحمليه عن طريق 
 
 <p align="center">
  !["Alerts "](https://i.ibb.co/ph4bWPr/2020-01-30-traffic-analysis-exercise-alerts.jpg)
-*Fig. 1:  التنبيهات (Alerts from snort)
+ 
+  *Fig. 1:  التنبيهات (Alerts from snort)
 *
 </p>
 
