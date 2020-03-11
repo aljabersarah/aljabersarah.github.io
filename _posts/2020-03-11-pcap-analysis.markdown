@@ -1,8 +1,3 @@
----
-title: pcap analysis
-redirect_to: https://sarahaljaber.com/pcap-analysis/
----
-
 ![](https://i.ibb.co/xjhgRQs/des-1.png)
 ##  مقدمة:
 
