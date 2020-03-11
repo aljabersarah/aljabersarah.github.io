@@ -46,7 +46,7 @@
 ![""](https://i.ibb.co/w4SwvvH/ezgif-com-video-to-gif.gif) 
 
 <p align="center">
-  Fig1: اضافة عمود الطريقة الإولى
+  Fig1: Add Column
 </p>
 
 <span style="color:DarkRed">الطريقة الثانية : </span>  
@@ -63,7 +63,7 @@
 ![""](https://i.ibb.co/MZHtDSF/CNAMEGIV.gif)
 
 <p align="center">
-  Fig2:  اضافة عمود الطريقة الثانية
+  Fig2: Add Column  
 </p>
 
 <span style="color:DarkRed"> ثانيا: تصفية النتائج (Filter) </span>  
@@ -92,7 +92,7 @@ cheat sheet لمعرفة كل أنواع وأشكال ال filter ولكن سو�
   !["Alerts "](https://i.ibb.co/hCLhSGv/2020-01-30-traffic-analysis-exercise-alerts.jpg)
   
 <p align="center">
-  Fig:3 
+  Fig3: Alret from snort  
 </p>
 
 > `   ETPRO TROJAN Tordal/Hancitor/Chanitor checkin  ` 
@@ -117,7 +117,7 @@ Hancitor يكون جزء من مستند Word يتم تحمليه عن طريق 
  !["Alerts "](https://i.ibb.co/ph4bWPr/2020-01-30-traffic-analysis-exercise-alerts.jpg)
 
 <p align="center">
-  Fig:4 
+  Fig4: Alret from snort 
 </p>
 
 <span style="color:DarkRed">ثانيا:  وجود أسئلة محددة للإجابة عنها - لا ينصح ب التحليل بدون وجود مجموعة من الاسئله نبحث عنها من خلال تحليلنا.  </span>  
@@ -150,7 +150,7 @@ Hancitor يكون جزء من مستند Word يتم تحمليه عن طريق 
 ![](https://i.ibb.co/qr4CFYy/Screen-Shot-1441-07-16-at-10-28-15-AM.png)
 
 <p align="center">
-  Fig:5
+  Fig5: Network traffic 
 </p>
 
  نذهب ل File ثم Export Objects  ثم http 
