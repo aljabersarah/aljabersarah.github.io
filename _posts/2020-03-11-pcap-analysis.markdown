@@ -1,6 +1,6 @@
  
 
- [pcapflie](https://i.ibb.co/xjhgRQs/des-1.png)
+ ![](https://i.ibb.co/xjhgRQs/des-1.png)
 ##  مقدمة:
 
 اهلاً بكم، في هذا المقال سوف اقوم بشرح تحليل ملف pcap لحظة اصابه جهاز بداخل الشبكة ب برمجية خبيثة. 
