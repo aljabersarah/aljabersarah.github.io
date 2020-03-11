@@ -183,7 +183,10 @@ IDS 
  </span>  
 
 
-نبحث عن عنوان الجهاز ب كتابة `ip.src == 10.20.30.227` في خانة display filter 
+نبحث عن عنوان الجهاز ب كتابة
+
+`ip.src == 10.20.30.227` 
+في خانة display filter 
 بخانة ال frame نختار Ethernet II 
 نجد قيمة MAC Address في خانة source 
  `58:94:6b:77:9b:3c ` 
