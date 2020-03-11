@@ -46,7 +46,7 @@
 ![""](https://i.ibb.co/w4SwvvH/ezgif-com-video-to-gif.gif) 
 
 <p align="center">
-  صورة١:
+  Fig:1 
 </p>
 
 <span style="color:DarkRed">الطريقة الثانية : </span>  
@@ -61,6 +61,10 @@
 7. الضغط بزر الفأرة الأيمن ثم اختيار Apply as a Column 
 
 ![""](https://i.ibb.co/MZHtDSF/CNAMEGIV.gif)
+
+<p align="center">
+  Fig:2 
+</p>
 
 <span style="color:DarkRed"> ثانيا: تصفية النتائج (Filter) </span>  
 كما ذكرت في بداية هذا الجزء، قد لا يهمنا في التحليل كل النتائج لذلك نستعين ب Filter ل تصفيه النتائج وإظهار ما نبحث عنه فقط.  
@@ -87,6 +91,9 @@ cheat sheet لمعرفة كل أنواع وأشكال ال filter ولكن سو�
 
   !["Alerts "](https://i.ibb.co/hCLhSGv/2020-01-30-traffic-analysis-exercise-alerts.jpg)
   
+<p align="center">
+  Fig:3 
+</p>
 
 > `   ETPRO TROJAN Tordal/Hancitor/Chanitor checkin  ` 
 >
@@ -109,6 +116,9 @@ Hancitor يكون جزء من مستند Word يتم تحمليه عن طريق 
 
  !["Alerts "](https://i.ibb.co/ph4bWPr/2020-01-30-traffic-analysis-exercise-alerts.jpg)
 
+<p align="center">
+  Fig:4 
+</p>
 
 <span style="color:DarkRed">ثانيا:  وجود أسئلة محددة للإجابة عنها - لا ينصح ب التحليل بدون وجود مجموعة من الاسئله نبحث عنها من خلال تحليلنا.  </span>  
 
@@ -139,6 +149,9 @@ Hancitor يكون جزء من مستند Word يتم تحمليه عن طريق 
 `184.73.165.106 `
 ![](https://i.ibb.co/qr4CFYy/Screen-Shot-1441-07-16-at-10-28-15-AM.png)
 
+<p align="center">
+  Fig:5
+</p>
 
  نذهب ل File ثم Export Objects  ثم http 
 نبحث عن الملفات المراد فحصها ونقوم ب تحميلها   
@@ -149,10 +162,14 @@ Hancitor يكون جزء من مستند Word يتم تحمليه عن طريق 
 `shasum` 
 
 ![](https://i.ibb.co/x7C9741/ezgif-com-video-to-gif-1.gif)
-
+<p align="center">
+  Fig:6 
+</p>
  
 ![](https://i.ibb.co/Qv0kNPh/22e.gif) 
-
+<p align="center">
+  Fig:7 
+</p>
 
 كما يظهر لنا ان الملف باسم sv.exe يعد ملف برمجية خبيثة و بنفس الطريقه نقوم من التاكد من باقي الملفات في حال تم تحميل أكثر من ملف. 
 
@@ -170,7 +187,9 @@ Hancitor يكون جزء من مستند Word يتم تحمليه عن طريق 
  `58:94:6b:77:9b:3c ` 
  
 ![](https://i.ibb.co/pP3b2Lv/mac.gif) 
-
+<p align="center">
+  Fig:8 
+</p>
 
 <span style="color:DarkRed"> Host IP address: </span>  
 
@@ -193,7 +212,9 @@ Hancitor يكون جزء من مستند Word يتم تحمليه عن طريق 
 
 
 ![""](https://i.ibb.co/y8Fn9Sx/Screen-Shot-1441-07-16-at-10-00-55-AM.png)
-
+<p align="center">
+  Fig:9 
+</p>
  
 <span style="color:DarkRed">User name:</span>  
 
@@ -204,7 +225,9 @@ Hancitor يكون جزء من مستند Word يتم تحمليه عن طريق 
 `alejandrina.hogue`
 
  ![](https://i.ibb.co/H2d7zKZ/Screen-Shot-1441-07-16-at-10-02-13-AM.png)
-
+<p align="center">
+  Fig:10
+</p>
 #### إجابة السؤال الرابع: 
 في هذا الجزء نحتاج لتحديد كافة التفاصيل حول الملف والمواقع التي تم زياراتها وعنوانيها ..الخ 
 
@@ -215,6 +238,10 @@ Hancitor يكون جزء من مستند Word يتم تحمليه عن طريق 
 `
 2. تحديد مصدر الملف` http://gengrasjeepram.com/sv.exe`
 ![](https://i.ibb.co/GcNBHy5/src.gif)
+
+<p align="center">
+  Fig:11 
+</p>
 3.  تحديد http methods  
 أ. Follow http stream   
 ب. او من تفاصيل  Frame مباشرة 
