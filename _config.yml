@@ -55,8 +55,9 @@ baseurl: ""
 # هذه المتغيرات خاصة بـJekyll ولا أنصح بتعديلها، لذلك لا حاجة لشرحها
 #
 
-permalink: /:title/
-redirect_to: https://aljabersarah.github.io
+
+permalink: /:slug/
+
 plugins:
   - jekyll-redirect-from
 
