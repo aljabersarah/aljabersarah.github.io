@@ -46,7 +46,7 @@
 ![""](https://i.ibb.co/w4SwvvH/ezgif-com-video-to-gif.gif) 
 
 <p align="center">
-  Fig:1 
+  Fig1: اضافة عمود الطريقة الإولى
 </p>
 
 <span style="color:DarkRed">الطريقة الثانية : </span>  
@@ -63,7 +63,7 @@
 ![""](https://i.ibb.co/MZHtDSF/CNAMEGIV.gif)
 
 <p align="center">
-  Fig:2 
+  Fig2:  اضافة عمود الطريقة الثانية
 </p>
 
 <span style="color:DarkRed"> ثانيا: تصفية النتائج (Filter) </span>  
