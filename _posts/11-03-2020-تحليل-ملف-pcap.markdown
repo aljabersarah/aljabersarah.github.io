@@ -160,11 +160,14 @@ Hancitor يكون جزء من مستند Word يتم تحمليه عن طريق 
  `58:94:6b:77:9b:3c ` 
 ![](https://i.ibb.co/pP3b2Lv/mac.gif) 
 
+
 <span style="color:DarkRed">Host IP address: </span>  
+
  يتضح لنا  من ال Alert ان الجهاز المصاب يحمل عنوان 
  `10.20.30.227`
 
 <span style="color:DarkRed">Host name: </span>  
+
 
 
 1.  من مربع كتابة الفلتر نقوم بكتابة kerberos.CNameString 
@@ -173,7 +176,8 @@ Hancitor يكون جزء من مستند Word يتم تحمليه عن طريق 
 4. ثم إختيار  req-body 
 5.  ثم إختيار cname
 6. ثم cname-string 
-7. الضغط بزر الفأرة الأيمن ثم اختيار Apply as a Column 
+7. الضغط بزر الفأرة الأيمن ثم اختيار Apply as a Column
+
 هذا هو اسم الجهاز المصاب `DESKTOP-4C02EMG$`
 
 
@@ -182,9 +186,11 @@ Hancitor يكون جزء من مستند Word يتم تحمليه عن طريق 
  
 <span style="color:DarkRed">User name:</span>  
 
+
 بنفس طريقة إيجاد Host name  ولكن اسم الجهاز ينتهي دائما ب $ بينما اسم المستخدم لا ينتهي ب علامة $ 
 وهذا اسم المستخدم ل الجهاز المصاب
 ` alejandrina.hogue`
+
  ![](https://i.ibb.co/H2d7zKZ/Screen-Shot-1441-07-16-at-10-02-13-AM.png)
 
 #### إجابة السؤال الرابع: 
