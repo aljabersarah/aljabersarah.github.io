@@ -149,7 +149,8 @@ Hancitor يكون جزء من مستند Word يتم تحمليه عن طريق 
 
 
  #### إجابة السؤال الثالث:  
- نبحث على الأجوبة ك التالي:   
+ نبحث على الأجوبة ك التالي:  
+ 
 <span style="color:DarkRed">Host mac address:  
  </span>  
 
@@ -158,6 +159,7 @@ Hancitor يكون جزء من مستند Word يتم تحمليه عن طريق 
 بخانة ال frame نختار Ethernet II 
 نجد قيمة MAC Address في خانة source 
  `58:94:6b:77:9b:3c ` 
+ 
 ![](https://i.ibb.co/pP3b2Lv/mac.gif) 
 
 
