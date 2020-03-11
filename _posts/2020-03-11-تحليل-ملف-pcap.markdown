@@ -45,7 +45,7 @@
 
 ![""](https://i.ibb.co/w4SwvvH/ezgif-com-video-to-gif.gif) 
 
-->صورة:١<-
+<div class="text-align-center">صورة ١</div>
 
 <span style="color:DarkRed">الطريقة الثانية : </span>  
 الطريقة الثانية تعتمد على نقل معلومات من خانة (Frame) ل أعمدة. 
