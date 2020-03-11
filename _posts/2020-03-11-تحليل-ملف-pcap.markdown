@@ -217,11 +217,10 @@ IDS 
 
 ![""](https://i.ibb.co/y8Fn9Sx/Screen-Shot-1441-07-16-at-10-00-55-AM.png)
 
-> `بالإمكان ايضا ايجاد اسم المستخدم ب البحث عن `
->
-
-> `dhcp أو smb`
-> 
+ `بالإمكان ايضا ايجاد اسم المستخدم ب البحث عن `
+ 
+ `dhcp أو smb`
+ 
 <span style="color:DarkRed">User name:</span>  
 
 
