@@ -1,4 +1,5 @@
 ---
+permalink: /about/
 title: pcap analysis
 redirect_to: https:sarahaljaber.com/pcap-analysis/
 ---
