@@ -1,7 +1,9 @@
-
+---
 title: pcap analysis
 permalink: /✂️/
 redirect_to: https:sarahaljaber.com/pcap-analysis/
+---
+
 ##  مقدمة:
 
 اهلاً بكم، في هذا المقال سوف اقوم بشرح تحليل ملف pcap لحظة اصابه جهاز بداخل الشبكة ب برمجية خبيثة. 
