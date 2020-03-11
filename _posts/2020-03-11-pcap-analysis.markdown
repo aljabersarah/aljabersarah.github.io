@@ -1,6 +1,5 @@
 ---
 title: pcap analysis
-permalink: /✂️/
 redirect_to: https:sarahaljaber.com/pcap-analysis/
 ---
 
