@@ -223,3 +223,12 @@ Hancitor يكون جزء من مستند Word يتم تحمليه عن طريق 
 `81.177.6.156 port 80 - twereptale.com - POST /d2/about.php `
 `148.66.137.40 port 80 - xolightfinance.com - GET /bhola/images/1 `
 `148.66.137.40 port 80 - xolightfinance.com - GET /bhola/images/2 `
+
+
+### ختاما
+شكرأ لقراتك هنا تجد المصادر 
+[pcapflie](https://www.malware-traffic-analysis.net/2020/01/30/index.html)
+
+
+تحياتي
+سارة الجابر
