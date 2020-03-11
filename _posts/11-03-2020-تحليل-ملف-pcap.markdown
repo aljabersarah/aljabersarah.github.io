@@ -151,7 +151,7 @@ Hancitor يكون جزء من مستند Word يتم تحمليه عن طريق 
  #### إجابة السؤال الثالث:  
  نبحث على الأجوبة ك التالي:  
  
-<span style="color:DarkRed">Host mac address:  
+<span style="color:DarkRed"> Host mac address:  
  </span>  
 
 
@@ -163,12 +163,12 @@ Hancitor يكون جزء من مستند Word يتم تحمليه عن طريق 
 ![](https://i.ibb.co/pP3b2Lv/mac.gif) 
 
 
-<span style="color:DarkRed">Host IP address: </span>  
+<span style="color:DarkRed"> Host IP address: </span>  
 
  يتضح لنا  من ال Alert ان الجهاز المصاب يحمل عنوان 
  `10.20.30.227`
 
-<span style="color:DarkRed">Host name: </span>  
+<span style="color:DarkRed"> Host name: </span>  
 
 
 
