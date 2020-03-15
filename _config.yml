@@ -33,8 +33,7 @@ footer-links:
   twitter: s4o_o
   stackoverflow: # هويتك في stackoverflow مثلا: "users/50476/bart-kiers"
   youtube: # إما channel/<عنوان_قناتك_الطويل> أو user/<اسم-مستخدمك>
-  googleplus: # رقم التعريف عندما تزور هويتك (كل ما يتبع plus.google.com/)
-
+  googleplus: UA-160605847-1
 
 # ضع الاسم Disqus القصير الخاص بك (الاسم القصير وليس اسم المستخدم) لتفعيل الردود على المدونة
 # ستجد الاسم القصير الخاص بك في إعدادات حسابك في Disqus
@@ -60,6 +59,13 @@ permalink: /:slug/
 
 plugins:
   - jekyll-redirect-from
+plugins:
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-160605847-1          # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
