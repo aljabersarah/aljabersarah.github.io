@@ -84,7 +84,7 @@
 هنا توضيح بالصورة لنتيجة تطبيق الأمر 
  `snort -vde `
 
-![](https://i.ibb.co/VBBVsvC/Screenshot-from-2020-03-26-19-01-29-1-1.png)
+![](https://i.ibb.co/nnMHL2B/2.png)
 
 
 - Snort  باستخدامة ك Packet Logger
