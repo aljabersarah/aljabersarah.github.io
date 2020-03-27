@@ -100,13 +100,11 @@ cheat sheet لمعرفة كل أنواع وأشكال ال filter ولكن سو�
   !["Alerts "](https://i.ibb.co/hCLhSGv/2020-01-30-traffic-analysis-exercise-alerts.jpg)
   
   
-  الصورة ل تنبيهات
-snort 
+  الصورة ل تنبيهات 
+[snort](https://sarahaljaber.com/snort/)
 وهو يعد
   IDS
-  سنتحدث عنه ب مقالات لاحقة ان شاء الله 
-
-
+  
 
 > `   ETPRO TROJAN Tordal/Hancitor/Chanitor checkin  ` 
 >
