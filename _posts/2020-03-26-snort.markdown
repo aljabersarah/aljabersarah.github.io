@@ -69,7 +69,7 @@
 
 هنا صورة للتوضيح: 
 
-![](https://i.ibb.co/QM9JXfN/Screenshot-from-2020-03-26-20-05-28.png)
+![](https://i.ibb.co/jfCsvCc/Screenshot-from-2020-03-26-20-05-28.png)
 - Snort   باستخدامة ك sniffer  
  يمكنك استخدام snort لعرض ومعرفه ما يحدث ب الشبكة ب التفصيل ما يتم ارسالة من والى الشبكة معلومات المرسل والمستقبل البروتوكول المستخدم وتفاصيل اخرى.
  
@@ -84,7 +84,7 @@
 هنا توضيح بالصورة لنتيجة تطبيق الأمر 
  `snort -vde `
 
-![](https://i.ibb.co/HHxThc5/Screenshot-from-2020-03-26-19-01-29-1.png)
+![](https://i.ibb.co/VBBVsvC/Screenshot-from-2020-03-26-19-01-29-1-1.png)
 
 
 - Snort  باستخدامة ك Packet Logger
@@ -127,7 +127,7 @@
 `myrules.rules`
 - بداخل ملف snort.conf اضف الملف الذي قمنا بإنشاءة بكتابة الأمر التالي 
 `include $RULE_PATH/myrules.rules`
-![](https://i.ibb.co/rQyXpN6/Screenshot-from-2020-03-26-21-33-15.png)
+![](https://i.ibb.co/YZqv0nF/Screenshot-from-2020-03-26-21-33-15.png)
 
 -  داخل مستند myrules.rules قم بكتابه القاعدة التالية 
 
@@ -137,7 +137,7 @@
  ` snort -A console -c /your/configurationfile/path `   
 - عند زيارة موقع Youtube ستظهر التنبيهات بالشكل التالي 
 
-![](https://i.ibb.co/193qddT/Screenshot-from-2020-03-26-20-45-09.png)
+![](https://i.ibb.co/S3yrQgr/Screenshot-from-2020-03-26-20-45-09.png)
  
 ## خاتمة 
 في هذه المقاله تحدثنا عن Snort، اهم المصطلحات استخدامته المختلفة، والهدف منه. 
