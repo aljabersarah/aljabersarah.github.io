@@ -142,7 +142,9 @@
 -  داخل مستند myrules.rules الذي قمنا بإنشاءة في خطوات اعداد snort  
   قم بكتابه القاعدة التالية 
 
-`alert tcp any any -> $EXTERNAL_NET any (msg:"Going to youtube"; sid:1000001; )`
+`alert tcp any any -> $EXTERNAL_NET any (content:"youtube.com";msg:"Going to youtube"; sid:1000001; )`
+
+
 
 - ب سطر الأوامر قم بكتابة الأمر التالي  
  ` snort -A console -c /your/configurationfile/path `   
