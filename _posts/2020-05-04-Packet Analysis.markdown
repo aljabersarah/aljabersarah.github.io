@@ -2,15 +2,10 @@
 layout: post
 title: سلسلة Packet Analysis  المقالة الأولى 
 ---
-
-
-
-
+![](https://i.ibb.co/gjSMSBQ/Screen-Shot-2020-05-04-at-12-51-20-PM.png)
 
 
 أهلا، هذه المقالة الأولى من سلسلة مقالات  Packet Analysis (تحليل حزم البيانات المارة بالشبكات) 
-  ![](https://i.ibb.co/gjSMSBQ/Screen-Shot-2020-05-04-at-12-51-20-PM.png)
-
 
 سوف تكون السلسلة مرتبة كالتالي: 
 1. مقدمة لأهم المصطلحات والمفاهيم ب Packet Analysis. 
