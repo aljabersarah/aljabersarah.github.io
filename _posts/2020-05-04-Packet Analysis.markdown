@@ -42,7 +42,7 @@ TAP  أو SPAN
 
 
 
-##  Switched Port Analyzer  
+##  SPAN / Switched Port Analyzer  
 
  ويسمى أيضاً  Port Mirroring ويمكن التعبير عنها بأنها آلية او Method يتم تفعليها ب Switch لنسخ البيانات وإرسالها ل الجهاز اخر لتحليلها.
 
@@ -55,8 +55,8 @@ TAP  أو SPAN
 1. لن يتم نسخ وتسجيل كافة البيانات المرسلة ب الشبكة فقد تضيع بعض هذه الحزم اثناء الإرسال. 
 
 
+## TAP / Terminal Access Point
 
-##  Terminal Access Point
  جهاز Hardware يقوم بنسخ البيانات والحزم كاملةً التي تتناقل من جهاز لأخر. 
 
 <span style="color: IndianRed">الإيجابيات: </span> 
