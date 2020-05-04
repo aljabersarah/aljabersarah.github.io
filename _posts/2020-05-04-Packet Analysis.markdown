@@ -1,16 +1,15 @@
---- 
-layout: post
-title: سلسلة Packet Analysis  المقالة الأولى 
----
-![](https://i.ibb.co/gjSMSBQ/Screen-Shot-2020-05-04-at-12-51-20-PM.png)
+
+
 
 
 أهلا، هذه المقالة الأولى من سلسلة مقالات  Packet Analysis (تحليل حزم البيانات المارة بالشبكات) 
+  ![](https://i.ibb.co/gjSMSBQ/Screen-Shot-2020-05-04-at-12-51-20-PM.png)
+
 
 سوف تكون السلسلة مرتبة كالتالي: 
 1. مقدمة لأهم المصطلحات والمفاهيم ب Packet Analysis. 
 2. شرح لأهم الأدوات المستخدمة في هذا المجال.
-3. أمثلة وتطبيق عملي 
+3. أمثلة. 
  
  
 
@@ -46,7 +45,7 @@ TAP  أو SPAN
 
 ![](https://i.ibb.co/SNNxPwL/Screen-Shot-2020-05-04-at-11-24-46-AM.png)
 
-1. Span (Switched Port Analyzer)  
+1. Switched Port Analyzer  
  ويسمى أيضاً  Port Mirroring ويمكن التعبير عنها بأنها آلية او Method يتم تفعليها ب Switch لنسخ البيانات وإرسالها ل الجهاز اخر لتحليلها.
 
 <span style="color: IndianRed">الإيجابيات: </span> 
@@ -57,7 +56,7 @@ TAP  أو SPAN
  
 
 
-2. TAP (Terminal Access Point)
+2. Terminal Access Point
  جهاز Hardware يقوم بنسخ البيانات والحزم كاملةً التي تتناقل من جهاز لأخر. 
 
 <span style="color: IndianRed">الإيجابيات: </span> 
