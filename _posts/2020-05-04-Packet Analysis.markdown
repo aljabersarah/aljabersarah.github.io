@@ -1,6 +1,10 @@
 
 
 
+--- 
+layout: post
+title: سلسلة Packet Analysis  
+---
 
 أهلا، هذه المقالة الأولى من سلسلة مقالات  Packet Analysis (تحليل حزم البيانات المارة بالشبكات) 
   ![](https://i.ibb.co/gjSMSBQ/Screen-Shot-2020-05-04-at-12-51-20-PM.png)
