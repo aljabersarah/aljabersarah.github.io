@@ -174,7 +174,8 @@ tcpip>parameters>interfaces
 
 يمكننا إيجاد هذه المعلومة في مفتاح 
 NTUSER.DAT  
-`NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs`
+`Software\Microsoft\Windows\
+CurrentVersion\Explorer\RecentDocs`
 
  ![](https://i.ibb.co/fx65Ss4/Screenshot-16.png)
 
