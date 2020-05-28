@@ -124,9 +124,11 @@ SYSTEM
 2- ما هي نسخة نظام التشغيل المستخدمة؟  
 تلاحظون ب الصورة أيضًا معلومات كثيرة ومهمة مثل 
 RegisteredOwner 
+
+
 يمكننا إيجاد هذه المعلومة في مفتاح    
 SOFTWARE
-` (HKEY_LOCAL_MACHINE\SOFTWARE)`
+`(HKEY_LOCAL_MACHINE\SOFTWARE)`
 
 ![](https://i.ibb.co/GnTTHK7/CV.png)
 
@@ -146,7 +148,7 @@ SOFTWARE
 5- متى تمت عملية تحميل وتنصيب النظام؟   
 يمكننا إيجاد هذه المعلومة في مفتاح 
 SOFTWARE   
-` (HKEY_LOCAL_MACHINE\SOFTWARE)`
+`(HKEY_LOCAL_MACHINE\SOFTWARE)`
 ![](https://i.ibb.co/w4mHQjZ/CV.png)
 
 نلاحظ هنا وجود الوقت ب صيغة أرقام عادية القيمة `1552992492` يمكننا ان نقوم بتحويل هذه القيمة ل  Timestamp بإستخدام أداة DCode أو استخدام أي أداة أو موقع يؤديان الغرض أنا سوف أقوم بإستخدام هذه الموقع [هنا](https://www.epochconverter.com/)
@@ -159,7 +161,7 @@ SOFTWARE
 6- معلومات الخاصة ب الشبكة المستخدمة، (IP Address, DHCP, DNS, Gateway)   
 يمكننا إيجاد هذه المعلومة في مفتاح 
 SYSTEM  
-` (HKEY_LOCAL_MACHINE\SYSTEM)`
+`(HKEY_LOCAL_MACHINE\SYSTEM)`
 
 بعد الوصول 
 tcpip>parameters>interfaces
@@ -172,6 +174,8 @@ tcpip>parameters>interfaces
 
 يمكننا إيجاد هذه المعلومة في مفتاح 
 NTUSER.DAT  
+`NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs`
+
  ![](https://i.ibb.co/fx65Ss4/Screenshot-16.png)
 
 
