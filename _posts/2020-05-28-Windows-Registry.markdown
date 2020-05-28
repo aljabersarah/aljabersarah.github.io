@@ -78,11 +78,11 @@ title: Windows Registry (سجل النظام)
 - SAM  
 `(HKEY_LOCAL_MACHINE\SAM)`
 - SECURITY  
-` (HKEY_LOCAL_MACHINE\SECURITY)`
+`(HKEY_LOCAL_MACHINE\SECURITY)`
 - SOFTWARE  
-` (HKEY_LOCAL_MACHINE\SOFTWARE)`
+`(HKEY_LOCAL_MACHINE\SOFTWARE)`
 - SYSTEM  
-` (HKEY_LOCAL_MACHINE\SYSTEM)`
+`(HKEY_LOCAL_MACHINE\SYSTEM)`
 - Default   
 `HKEY_USERS\.DEFAULT`
 
@@ -93,7 +93,7 @@ title: Windows Registry (سجل النظام)
 - NTUSER.DAT 
 أيضا يعد من المفاتيح التي  تهمنا ويتم حفظة في الملف الخاص لكل مستخدم 
 
-لتحليل هذا السجلات سوف أستخدم برنامج Registry Explorer يمكن تحميله من [هنا](https://ericzimmerman.github.io/#!index.md)
+لتحليل هذا السجلات سوف أستخدم برنامج Registry Explorer
 
 
  وحتى تكون عملية التحليل أكثر وضوحا يُفضل أن يكون هناك مجموعة من الأسئلة ونجيب عليها من خلال تحليلنا لهذه السجلات.
@@ -110,16 +110,20 @@ title: Windows Registry (سجل النظام)
 
 ## الحل 
 قبل ان نبدأ بالإجابة على هذه الأسئلة أود التنوية بأن يمكن الحصول على سجلات النظام لقضايا وأمثلة مختلفة كثيرة من الإنترنت، ومن ثم  تحميلها ورفعها في البرنامج المستخدم في التحليل Registry Explorer أو من الممكن أن نقوم ب تحليل هذه السجلات مباشرة ك  Live System Analysis.
+انا هنا قمت بالتحليل النظام الخاص بي مباشرة 
+Live System. 
 
 
 1- ماهو أسم جهاز المستخدم؟ 
 يمكننا إيجاد هذه المعلومة في مفتاح 
 SYSTEM  
-` (HKEY_LOCAL_MACHINE\SYSTEM)`
+`(HKEY_LOCAL_MACHINE\SYSTEM)`
 
 ![](https://i.ibb.co/h9Jq2yj/CN.png)
 
-2- ما هي نسخة نظام التشغيل المستخدمة؟   
+2- ما هي نسخة نظام التشغيل المستخدمة؟  
+تلاحظون ب الصورة أيضًا معلومات كثيرة ومهمة مثل 
+RegisteredOwner 
 يمكننا إيجاد هذه المعلومة في مفتاح    
 SOFTWARE
 ` (HKEY_LOCAL_MACHINE\SOFTWARE)`
