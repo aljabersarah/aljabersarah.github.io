@@ -40,7 +40,5 @@ title: حل تحدي  Hunter من Cyberdefenders
 2.  لحل هذا السؤال يمكننا ايضًا أن نستعين ب Windows Registry (سجل النظام)  
 هذه المرة سوف نبحث بهذا المسار 
 `(HKEY_LOCAL_MACHINE\SYSTEM:ControlSet001\Services\Tcpip\Parameters\Interfaces\{8CB9FBF6-AE23-4E1C-AA0A-EE23CB4FE736})`
-
-
 ![](https://i.ibb.co/PW0wVgk/Q2.png)
 
