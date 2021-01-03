@@ -12,6 +12,7 @@ title: حل تحدي  Hunter من Cyberdefenders
 ## عناصر المقالة 
 
 - مقدمة 
+- أدوات مستخدمة 
 - الأسئلة 
 - الحل 
 
@@ -21,6 +22,11 @@ title: حل تحدي  Hunter من Cyberdefenders
 هذه المقالة ستكون مخصصة لحل تحدي  Hunter من منصة cyberdefenders.org 
 التحدي عبارة عن 30 سوال للاجابة على هذه الأسئلة يتطلب منا تحليل كامل ل Windows Image  
 ب البداية نستعين ب أداة AccessData_FTK_Imager لفتح image  والبدء ب استخراج Artifacts 
+
+رابط التحدي 
+ https://cyberdefenders.org/labs/32 
+
+## الأدوات المستخدمة 
 
 ## الأسئلة 
 1. What is the computer name of the suspect machine
@@ -39,6 +45,13 @@ title: حل تحدي  Hunter من Cyberdefenders
 14. What is the Gmail email address of the suspect employee
 15. It looks like the suspect user deleted an important diagram after his conversation with the external attacker. What is the file name of the deleted diagram
 16. 	The user Documents' directory contained a PDF file discussing data exfiltration techniques. What is the name of the file 
+17. The suspect user downloaded a Nmap installer. What version did he download
+18. What are the serial numbers of the two identified USB storage
+19. How many prefetch files were discovered on the system
+20. The suspect employee tried to exfiltrate data by sending it as an email attachment. What is the name of the suspected attachment
+21. Shellbags shows that the employee created a folder to include all the data he will exfiltrate. What is the full path of that folder 
+22. Provide the name of the directory where information about jump lists items (created automatically by the system) is stored?
+23. Using JUMP LIST analysis, provide the full path of the application with the AppID of "aa28770954eaeaaa" used to bypass network security monitoring controls.
 
 
 
@@ -187,8 +200,52 @@ title: حل تحدي  Hunter من Cyberdefenders
 ![](https://i.ibb.co/6ZZfs8x/q16.png)
 
 
-16- 
+16- من السؤال المطلوب البحث في مجلد `(Documents)` عند استخراج كل ملفات `(pdf)` من المجلد وفتحها واحد تلو الاخر سنجد أن الملف المقصود هو كما موضح بالصورة 
+![](https://i.ibb.co/z72LR2Y/q17.png)
+
+17- عند تحليل ملف `(nmapscan.xml)`  المذكور بالسؤال التاسع سوف نجد ان الملف يشير الى نسخة 
+`(nmap)`  المستخدمة 
+![](https://i.ibb.co/5xH1HVh/q18.png)
+
+18-  لحل هذا السؤال سوف نستعين بملفات  `( Windows Registry)`
+تحديدًا ب المسار التالي  `(HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USB\)` 
+![](https://i.ibb.co/9YkrjrH/q20.png)
+
+19- لحل هذا السؤال سوف استعين ب أداة `(winprefetchview)`
+من ثم بعد رفع ملفات `(Prefetch)`  وحذف الملفات ب الحجم صفر سيتبقى لنا العدد 174 
+![](https://i.ibb.co/YcL39JL/q22.png)
+
+20- كما في السؤال الخامس عشر استعنت لحل هذه السؤال ب أداة `(Stellar Repair for Outlook)`  لتحليل ملفات البريد الالكتروني   
+لتكون الإجابة  `(Pictures.7z)`
+![](https://i.ibb.co/KztQTRC/q26.png)
+
+21-  لحل هذا السؤال قمت بإستخراج  مفتاح  `(USRClass.dat )`  
+من `(%UserProfile%\)` 
+من ثم الاستعانة بأداة  `(ShellBagsExplorer)`  لفتح الملفات و تحليلها 
+لنجد الإجابة `(Exfil)`
+![](https://i.ibb.co/2YcScsF/q27.png)
+
+
+22- يمكننا أن نجدها في المسار 
+`(%USERPROFILE%\AppData\Roaming\Microsoftg\Windows\Recent\)`
+لتكون  الإجابة   `(AutomaticDestinations-ms)`
+![](https://i.ibb.co/wJyzB8K/q29.png)
+
+
+23- أخيرا لتحليل ملفات `( JUMP LIST)` سوف اقوم باستخراجها من   
+`(%USERPROFILE%\AppData\Roaming\Microsoftg\Windows\Recent\)`
+من ثم سوف نستعين بأداة `( JumpListExplorer)`  لتحليل  سوف نقوم ب البحث عن AppId كما هو مذكور ب السوال لتكون الإجابة 
+
+![](https://i.ibb.co/P9ZhPZz/q30.png)
 
 
 
- `(skyperious)`
+الى هنا نكون وصلنا لنهاية المقال أرجو أن أكون وفقت في كتابته 
+
+كل الشكر ل الدكتور علي هادي و لمنصة cyberdefenders.org
+لمثل هذه المبادرات التي من شأنها المساهمة في تطوير مهارات التحليل. 
+
+
+ 
+
+ 
