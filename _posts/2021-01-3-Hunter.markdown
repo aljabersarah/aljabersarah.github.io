@@ -26,8 +26,7 @@ title: حل تحدي  Hunter من  منصة Cyberdefenders
 رابط التحدي 
  https://cyberdefenders.org/labs/32 
 
-## الأدوات المستخدمة 
-
+ 
 ## الأسئلة 
 1. What is the computer name of the suspect machine
 2. What is the computer IP
