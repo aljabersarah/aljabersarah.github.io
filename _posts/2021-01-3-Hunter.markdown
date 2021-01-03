@@ -33,7 +33,7 @@ title: حل تحدي  Hunter من  منصة Cyberdefenders
 أولا من خلال تحليل Image  بإستخدام FTK Imager  سوف نجد ملفات Windows Registry ب المسارين 
 `(%Windir%\System32\Config)` و `(%UserProfile%\)`
 
-##
+ 
 1- `(What is the computer name of the suspect machine)`
 
  يمكننا استخراج اسم الكمبيوتر من خلال  البحث ب هذا المسار   
