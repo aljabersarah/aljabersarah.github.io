@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: حل تحدي  Hunter من Cyberdefenders 
+title: حل تحدي  Hunter من منصة Cyberdefenders 
 ---
 
 ![](https://isolutions.com.ua/wp-content/uploads/2020/04/DigitalForensics.png)
@@ -35,6 +35,9 @@ title: حل تحدي  Hunter من Cyberdefenders
 7. When was the last login time for the discovered account?
 8. There was a “Network Scanner” running on this computer, what was it? And when was the last time the suspect used it
 9. When did the port scan start and end 
+10. How many ports were scanned	
+11. What ports were found "open"
+12. The employee engaged in a Skype conversation with someone. What is the skype username of the other party
 
 
 
@@ -149,4 +152,26 @@ title: حل تحدي  Hunter من Cyberdefenders
 وقت الإنتهاء:
 ![](https://i.ibb.co/ypKjqVv/Q10-1.png)
 
-`(zenmap)`
+10- في نفس الملف المذكور ب السؤال السابق سنجد كم `(Ports)` تم مسحة 
+![](https://i.ibb.co/7JkQxT7/q11.png)
+
+11- أيضا بنفس الملف سوف نجد  كم `(Ports)` تم  ايجادة في حالة `(Open)` 
+![](https://i.ibb.co/ZRrcHPT/q12.png)
+ 
+12- لحل هذا السؤال قمت بالاستعانة بأداة `(skyperious)`
+لكن قبل ذلك قمت ب إستخراج ملف `(skype)` 
+من `(users\hunter\AppData\Roaming)` 
+![](https://i.ibb.co/CW9xT08/q13-1.png)
+
+
+ومن ثم  قمت بفتح ملفات `(skype database)` ب استخدام أداة `(skyperious)`
+![](https://i.ibb.co/Cbvn3fL/Q13.png)
+
+لتكون الإجابة على هذا السؤال `(linux rul3z)` 
+
+
+
+
+
+![]()
+`(skyperious)`
