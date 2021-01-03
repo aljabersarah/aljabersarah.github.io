@@ -7,6 +7,7 @@ title: حل تحدي  Hunter من Cyberdefenders
 السلام عليكم ورحمة الله وبركاته 
 عدنا والعود أحمدٌ 
 
+ 
 
 ## عناصر المقالة 
 
@@ -25,36 +26,76 @@ title: حل تحدي  Hunter من Cyberdefenders
 ## الأدوات المستخدمة 
 
 ## الأسئلة 
-1. What is the computer name of the suspect machine?	 
-2. What is the computer IP?
-3. 
+1. What is the computer name of the suspect machine
+2. What is the computer IP
+3. What was the DHCP LeaseObtainedTime
+4. How many times did this user log on to the computer
+5. What is the computer SID
 
 
 
 ## الحل 
-
 من السؤال الأول حتى السؤال الثامن سوف نجد الأجوبة من خلال  تحليل ملفات Windows Registry (سجل النظام)  
 ب الاستعانة ب أداة  `(Registry Explorer )` و أداة `(Reg Ripper)`
-
-سوف نجد ملفات Windows Registry ب المسارين 
+من خلال تحليل Image  بإستخدام FTK Imager  سوف نجد ملفات Windows Registry ب المسارين 
 `(%Windir%\System32\Config)` و `(%UserProfile%\)`
 
-1. يمكننا استخراج اسم الكمبيوتر من خلال  البحث Windows Registry (سجل النظام) 
-تحديدًا ب هذا المسار   
-`(HKEY_LOCAL_MACHINE\SYSTEM:ControlSet001\Control\ComputerName\ComputerName)`
+1. يمكننا استخراج اسم الكمبيوتر من خلال  البحث ب هذا المسار   
+`(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\ComputerName\ComputerName)`
 
 لنجد الإجابة كما هو موضح بالصورة  `4ORENSICS`
 ![](https://i.ibb.co/hWLn0B8/q1.png)
 
-الأداة المستخدمة: 
-
-
 2.  لحل هذا السؤال يمكننا ايضًا أن نستعين ب Windows Registry (سجل النظام)  
 هذه المرة سوف نبحث بهذا المسار 
-`(HKEY_LOCAL_MACHINE\SYSTEM:ControlSet001\Services\Tcpip\Parameters\Interfaces\{8CB9FBF6-AE23-4E1C-AA0A-EE23CB4FE736})`
-
+`(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\Interfaces\{***********})`
 
 ![](https://i.ibb.co/PW0wVgk/Q2.png)
 
+3.  لحل هذه السؤال هذه المرة  أيضًا سنجد الإجابة في هذا المسار 
+`(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\Interfaces\{****************})`
+![](https://i.ibb.co/LPDQ6CJ/Q3.png)
 
+نجد الإجابة 
+`(1466475852)`
+ومن ثم نستعين ب 
+ https://www.epochconverter.com/ 
+للتحويل ل قيمة مقرؤة 
+
+![](https://i.ibb.co/mR95B30/q3-con.png)
+
+
+4. لحل هذا السؤال سوف أقوم بالاستعانة بأداة `(Reg Ripper)`  
+وسوف نقوم تحليل مفتاح SAM  تحديدًا 
+![](https://i.ibb.co/kmsVjcB/q4-reg.png)
+
+لنجد الإجابة عدد مرات الدخول 3 مرات 
+
+![](https://i.ibb.co/kgPYYwr/q4.png)
+
+5. نستطيع استخراج computer SID من خلال البحث في مسار 
+`(HKEY_LOCAL_MACHINESAM\SAM\Domains\Account)`
+![](https://i.ibb.co/4gfYbb8/Q5.png)
+
+هنا سوف نجد قيمتين F و V 
+يهمنا في هذه الحالة قيمة V  
+نقوم ب أخذ اخر 96 بت
+2E-D9-61-94-33-5A-2B-A4-80-82-5C-2A
+ ثم نقوم بحساب SID  بإتباع الخطوات التالية 
+
+أولًا: نقوم بتقسيمها الى 3 أجزاء 
+2E-D9-61-94 33-5A-2B-A4 80-82-5C-2A
+
+ثانيًا: نقوم بترتيب البايت بالعكس ل كل قسم 
+2E-D9-61-94  >> 94-61-D9-2E 
+33-5A-2B-A4 >> A4-2B-5A-33 
+80-82-5C-2A >> 2A-5C-82-80 
+
+94,61,D9,2E-A4,2B,5A,33-2A,5C,82,80 
+
+ثالثًا: نقوم بتحويل كل قسم الى نظام العد العشري (decimal)
+2489440558-2754304563-710705792
+
+ثم نقوم بإضافة machine SID prefix 
+S-1-5-21-2489440558-2754304563-710705792
 
