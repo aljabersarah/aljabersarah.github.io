@@ -4,12 +4,34 @@ title: حل تحدي  Hunter من Cyberdefenders
 ---
 
 ![](https://isolutions.com.ua/wp-content/uploads/2020/04/DigitalForensics.png)
-
 السلام عليكم ورحمة الله وبركاته 
 عدنا والعود أحمدٌ 
 
-المقالة ستكون مخصصة لحل تحدي Hunter من cyberdefenders.org 
+ 
+## عناصر المقالة 
 
+- مقدمة 
+- أدوات مستخدمة 
+- الأسئلة 
+- الحل 
+
+
+## مقدمة 
+هذه المقالة ستكون مخصصة لحل تحدي  Hunter من منصة cyberdefenders.org 
 التحدي عبارة عن 30 سوال للاجابة على هذه الأسئلة يتطلب منا تحليل كامل ل Windows Image  
 
+## الأدوات المستخدمة 
 
+## الأسئلة 
+1. What is the computer name of the suspect machine?	 
+2. What is the computer IP?
+3. 
+
+
+
+## الحل 
+1. يمكننا استخراج اسم الكمبيوتر من خلال  البحث Windows Registry (سجل النظام) 
+تحديدًا ب هذا المسار لنجد الإجابة كما هو موضح بالصورة 
+`(HKEY_LOCAL_MACHINE\SYSTEM:ControlSet001\Control\ComputerName\ComputerName)`
+
+  ![](https://i.ibb.co/hWLn0B8/q1.png)
