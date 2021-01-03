@@ -7,7 +7,7 @@ title: حل تحدي  Hunter من Cyberdefenders
 السلام عليكم ورحمة الله وبركاته 
 عدنا والعود أحمدٌ 
 
- 
+
 ## عناصر المقالة 
 
 - مقدمة 
@@ -17,8 +17,10 @@ title: حل تحدي  Hunter من Cyberdefenders
 
 
 ## مقدمة 
+
 هذه المقالة ستكون مخصصة لحل تحدي  Hunter من منصة cyberdefenders.org 
 التحدي عبارة عن 30 سوال للاجابة على هذه الأسئلة يتطلب منا تحليل كامل ل Windows Image  
+ب البداية نستعين ب أداة AccessData_FTK_Imager لفتح image  والبدء ب استخراج Artifacts 
 
 ## الأدوات المستخدمة 
 
@@ -30,20 +32,29 @@ title: حل تحدي  Hunter من Cyberdefenders
 
 
 ## الحل 
+
+من السؤال الأول حتى السؤال الثامن سوف نجد الأجوبة من خلال  تحليل ملفات Windows Registry (سجل النظام)  
+ب الاستعانة ب أداة  `(Registry Explorer )` و أداة `(Reg Ripper)`
+
+سوف نجد ملفات Windows Registry ب المسارين 
+`(%Windir%\System32\Config)` و `(%UserProfile%\)`
+
 1. يمكننا استخراج اسم الكمبيوتر من خلال  البحث Windows Registry (سجل النظام) 
 تحديدًا ب هذا المسار   
 `(HKEY_LOCAL_MACHINE\SYSTEM:ControlSet001\Control\ComputerName\ComputerName)`
-لنجد الإجابة كما هو موضح بالصورة  `4ORENSICS`
 
+لنجد الإجابة كما هو موضح بالصورة  `4ORENSICS`
 ![](https://i.ibb.co/hWLn0B8/q1.png)
 
+الأداة المستخدمة: 
 
 
 2.  لحل هذا السؤال يمكننا ايضًا أن نستعين ب Windows Registry (سجل النظام)  
-هذه المرة سوف نبحث بهذا المسار
-`(HKEY_LOCAL_MACHINE\SYSTEM:ControlSet001\Services\Tcpip\Parameters\Interfaces\{*******})`
- الاجابة`(10.0.2.15)`
+هذه المرة سوف نبحث بهذا المسار 
+`(HKEY_LOCAL_MACHINE\SYSTEM:ControlSet001\Services\Tcpip\Parameters\Interfaces\{8CB9FBF6-AE23-4E1C-AA0A-EE23CB4FE736})`
+
 
 ![](https://i.ibb.co/PW0wVgk/Q2.png)
+
 
 
