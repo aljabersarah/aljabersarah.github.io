@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: حل تحدي  Hunter من منصة Cyberdefenders 
+title: حل تحدي  Hunter من Cyberdefenders 
 ---
 
 ![](https://isolutions.com.ua/wp-content/uploads/2020/04/DigitalForensics.png)
@@ -12,7 +12,6 @@ title: حل تحدي  Hunter من منصة Cyberdefenders
 ## عناصر المقالة 
 
 - مقدمة 
-- أدوات مستخدمة 
 - الأسئلة 
 - الحل 
 
@@ -22,8 +21,6 @@ title: حل تحدي  Hunter من منصة Cyberdefenders
 هذه المقالة ستكون مخصصة لحل تحدي  Hunter من منصة cyberdefenders.org 
 التحدي عبارة عن 30 سوال للاجابة على هذه الأسئلة يتطلب منا تحليل كامل ل Windows Image  
 ب البداية نستعين ب أداة AccessData_FTK_Imager لفتح image  والبدء ب استخراج Artifacts 
-
-## الأدوات المستخدمة 
 
 ## الأسئلة 
 1. What is the computer name of the suspect machine
@@ -38,6 +35,10 @@ title: حل تحدي  Hunter من منصة Cyberdefenders
 10. How many ports were scanned	
 11. What ports were found "open"
 12. The employee engaged in a Skype conversation with someone. What is the skype username of the other party
+13. What is the name of the application both parties agreed to use to exfiltrate data and provide remote access for the external attacker in their Skype conversation? And when did the suspect run it 
+14. What is the Gmail email address of the suspect employee
+15. It looks like the suspect user deleted an important diagram after his conversation with the external attacker. What is the file name of the deleted diagram
+16. 	The user Documents' directory contained a PDF file discussing data exfiltration techniques. What is the name of the file 
 
 
 
@@ -169,9 +170,25 @@ title: حل تحدي  Hunter من منصة Cyberdefenders
 
 لتكون الإجابة على هذا السؤال `(linux rul3z)` 
 
+13- ب إستخدام نفس الأداة `(skyperious)` نستطيع الوصول للمحادثات التي تمت من خلال 
+`(skype)` وبالتالي سوف نجد إجابة هذا السوال والبرامج الذي اتفق عليه الطرفين 
+لنقل الملفات هو  `(team viewer)`
+![](https://i.ibb.co/HrKktJ9/Q14.png)
+
+14- ايضا لحل هذا السؤال استعنت ب اداة `(skyperious)` 
+من خيار `(information)` سوف نجد بيانات المستخدمين متضمنة عنوان البريد الإالكتروني 
+![](https://i.ibb.co/nmXc7QD/Q15.png)
+
+15- استعنت لحل هذه السؤال ب أداة `(Stellar Repair for Outlook)`  لتحليل ملفات البريد الالكتروني  `(PTS / Outlook)`
+ب البداية قمت بإستخراج ملفات  `(pts)`  من `(users\hunter\Documents)`
+![](https://i.ibb.co/Y8xGTBz/q16-1.png)
+
+سوف نجد الإجابة في ملف الايميلات المحذوفة 
+![](https://i.ibb.co/6ZZfs8x/q16.png)
+
+
+16- 
 
 
 
-
-![]()
-`(skyperious)`
+ `(skyperious)`
