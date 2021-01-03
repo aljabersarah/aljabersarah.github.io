@@ -40,19 +40,19 @@ title: حل تحدي  Hunter من Cyberdefenders
 من خلال تحليل Image  بإستخدام FTK Imager  سوف نجد ملفات Windows Registry ب المسارين 
 `(%Windir%\System32\Config)` و `(%UserProfile%\)`
 
-1. يمكننا استخراج اسم الكمبيوتر من خلال  البحث ب هذا المسار   
+1- يمكننا استخراج اسم الكمبيوتر من خلال  البحث ب هذا المسار   
 `(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\ComputerName\ComputerName)`
 
 لنجد الإجابة كما هو موضح بالصورة  `4ORENSICS`
 ![](https://i.ibb.co/hWLn0B8/q1.png)
 
-2.  لحل هذا السؤال يمكننا ايضًا أن نستعين ب Windows Registry (سجل النظام)  
+2-  لحل هذا السؤال يمكننا ايضًا أن نستعين ب Windows Registry (سجل النظام)  
 هذه المرة سوف نبحث بهذا المسار 
 `(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\Interfaces\{***********})`
 
 ![](https://i.ibb.co/PW0wVgk/Q2.png)
 
-3.  لحل هذه السؤال هذه المرة  أيضًا سنجد الإجابة في هذا المسار 
+3-  لحل هذه السؤال هذه المرة  أيضًا سنجد الإجابة في هذا المسار 
 `(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\Interfaces\{****************})`
 ![](https://i.ibb.co/LPDQ6CJ/Q3.png)
 
@@ -65,7 +65,7 @@ title: حل تحدي  Hunter من Cyberdefenders
 ![](https://i.ibb.co/mR95B30/q3-con.png)
 
 
-4. لحل هذا السؤال سوف أقوم بالاستعانة بأداة `(Reg Ripper)`  
+4- لحل هذا السؤال سوف أقوم بالاستعانة بأداة `(Reg Ripper)`  
 وسوف نقوم تحليل مفتاح SAM  تحديدًا 
 ![](https://i.ibb.co/kmsVjcB/q4-reg.png)
 
@@ -73,7 +73,7 @@ title: حل تحدي  Hunter من Cyberdefenders
 
 ![](https://i.ibb.co/kgPYYwr/q4.png)
 
-5. نستطيع استخراج computer SID من خلال البحث في مسار 
+5- نستطيع استخراج computer SID من خلال البحث في مسار 
 `(HKEY_LOCAL_MACHINESAM\SAM\Domains\Account)`
 ![](https://i.ibb.co/4gfYbb8/Q5.png)
 
@@ -91,18 +91,21 @@ title: حل تحدي  Hunter من Cyberdefenders
 2E-D9-61-94 33-5A-2B-A4 80-82-5C-2A
 
 ثانيًا: نقوم بترتيب البايت بالعكس ل كل قسم
+`(2E-D9-61-94  >> 94-61-D9-2E )`
 
-2E-D9-61-94  >> 94-61-D9-2E 
-33-5A-2B-A4 >> A4-2B-5A-33 
-80-82-5C-2A >> 2A-5C-82-80 
+`(33-5A-2B-A4 >> A4-2B-5A-33 )`
 
-94,61,D9,2E-A4,2B,5A,33-2A,5C,82,80 
+`(80-82-5C-2A >> 2A-5C-82-80 )`
+
+`(94,61,D9,2E-A4,2B,5A,33-2A,5C,82,80 )`
+
 
 ثالثًا: نقوم بتحويل كل قسم الى نظام العد العشري (decimal)
 
-2489440558-2754304563-710705792
+`(2489440558-2754304563-710705792)`
 
 ثم نقوم بإضافة machine SID prefix
 
-S-1-5-21-2489440558-2754304563-710705792
+`(S-1-5-21-2489440558-2754304563-710705792)`
+
 
