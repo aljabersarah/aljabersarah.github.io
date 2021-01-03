@@ -32,8 +32,7 @@ title: حل تحدي  Hunter من Cyberdefenders
 4. How many times did this user log on to the computer
 5. What is the computer SID
 6. What is the Operating System(OS) version
-7. What was the computer timezone?
-8. When was the last login time for the discovered account?
+7. When was the last login time for the discovered account?
 
 
 
@@ -121,7 +120,6 @@ title: حل تحدي  Hunter من Cyberdefenders
 
 ![](https://i.ibb.co/kKNTjZh/q6.png)
 
-7- 
-8- لحل هذا السؤال سوف أقوم بالاستعانة بأداة `(Reg Ripper)`  
+7- لحل هذا السؤال سوف أقوم بالاستعانة بأداة `(Reg Ripper)`  
 وسوف نقوم تحليل مفتاح SAM  تحديدًا 
 ![](https://i.ibb.co/zQtYVRw/q8.png)
