@@ -31,6 +31,16 @@ title: حل تحدي  Hunter من Cyberdefenders
 
 ## الحل 
 1. يمكننا استخراج اسم الكمبيوتر من خلال  البحث Windows Registry (سجل النظام) 
-تحديدًا ب هذا المسار لنجد الإجابة كما هو موضح بالصورة 
+تحديدًا ب هذا المسار   
 `(HKEY_LOCAL_MACHINE\SYSTEM:ControlSet001\Control\ComputerName\ComputerName)`
+
+لنجد الإجابة كما هو موضح بالصورة  `4ORENSICS`
 ![](https://i.ibb.co/hWLn0B8/q1.png)
+
+2.  لحل هذا السؤال يمكننا ايضًا أن نستعين ب Windows Registry (سجل النظام)  
+هذه المرة سوف نبحث بهذا المسار 
+`(HKEY_LOCAL_MACHINE\SYSTEM:ControlSet001\Services\Tcpip\Parameters\Interfaces\{8CB9FBF6-AE23-4E1C-AA0A-EE23CB4FE736})`
+
+
+![](https://i.ibb.co/PW0wVgk/Q2.png)
+
