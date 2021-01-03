@@ -33,6 +33,8 @@ title: حل تحدي  Hunter من Cyberdefenders
 5. What is the computer SID
 6. What is the Operating System(OS) version
 7. When was the last login time for the discovered account?
+8. There was a “Network Scanner” running on this computer, what was it? And when was the last time the suspect used it
+9. When did the port scan start and end 
 
 
 
@@ -123,3 +125,28 @@ title: حل تحدي  Hunter من Cyberdefenders
 7- لحل هذا السؤال سوف أقوم بالاستعانة بأداة `(Reg Ripper)`  
 وسوف نقوم تحليل مفتاح SAM  تحديدًا 
 ![](https://i.ibb.co/zQtYVRw/q8.png)
+
+8- لحل هذا السؤال استعنت ب 
+ملفات `(Prefetch)`  حيث قمت بالبداية باستخراجها من 
+مجلد `(windows/Prefetch)` باستخدام أداة `(FTK Imager)` ومن ثم استعنت بأداة `(winprefetchview)` للتحليل 
+لنجد أن الإجابة  `(zenmap.exe)`
+
+![](https://i.ibb.co/tDGwnNx/q9.png)
+
+
+
+9- من المعروف أن أداة التقرير الناتج عن أداة  `(zenmap)` سوف نجد وقت بدء عملية المسح و كم المدة المستغرقة في البحث. 
+ وعند البحث في ملفات المستخدم `(Hunter)` تحديدًا في `(Desktop)` 
+نجد ملف بإسم `(nmapscan.xml)` 
+نقوم بإستخراج الملف لقراءة محتواة 
+![](https://i.ibb.co/jZR8pFx/q10.png)
+
+سوف نجد وقت بدء عملية المسح المدة المستغرقة و وقت انتهاء عملية المسح 
+
+وقت البدء: 
+![](https://i.ibb.co/ypKjqVv/Q10-1.png)
+
+وقت الإنتهاء:
+![](https://i.ibb.co/ypKjqVv/Q10-1.png)
+
+`(zenmap)`
