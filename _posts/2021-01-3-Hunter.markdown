@@ -33,6 +33,7 @@ title: حل تحدي  Hunter من  منصة Cyberdefenders
 أولا من خلال تحليل Image  بإستخدام FTK Imager  سوف نجد ملفات Windows Registry ب المسارين 
 `(%Windir%\System32\Config)` و `(%UserProfile%\)`
 
+##
 1- `(What is the computer name of the suspect machine)`
 
  يمكننا استخراج اسم الكمبيوتر من خلال  البحث ب هذا المسار   
@@ -144,13 +145,13 @@ title: حل تحدي  Hunter من  منصة Cyberdefenders
 
 9- `(When did the port scan start and end)`
 
-من المعروف أن أداة التقرير الناتج عن أداة  `(zenmap)` سوف نجد وقت بدء عملية المسح و كم المدة المستغرقة في البحث. 
+من المعروف أن من خلال التقرير الناتج عن أداة  `(zenmap)` سوف نجد وقت بدء عملية المسح و كم المدة المستغرقة في البحث. 
  وعند البحث في ملفات المستخدم `(Hunter)` تحديدًا في `(Desktop)` 
-نجد ملف بإسم `(nmapscan.xml)` 
+نجد ملف بإسم `(nmapscan.xml)` وهو ملف التقرير الناتج عن المسح  
 نقوم بإستخراج الملف لقراءة محتواة 
 ![](https://i.ibb.co/jZR8pFx/q10.png)
 
-سوف نجد وقت بدء عملية المسح المدة المستغرقة و وقت انتهاء عملية المسح 
+سوف نجد وقت بدء عملية المسح, المدة المستغرقة و وقت انتهاء عملية المسح 
 
 وقت البدء: 
 ![](https://i.ibb.co/ypKjqVv/Q10-1.png)
@@ -160,12 +161,12 @@ title: حل تحدي  Hunter من  منصة Cyberdefenders
 
 10- `(How many ports were scanned)`
 
-في نفس الملف المذكور ب السؤال السابق سنجد كم `(Ports)` تم مسحة 
+في نفس الملف المذكور ب السؤال السابق سنجد كم `(Ports)` تم مسحه 
 ![](https://i.ibb.co/7JkQxT7/q11.png)
 
 11- `(What ports were found “open”)`
 
-أيضا بنفس الملف سوف نجد  كم `(Ports)` تم  ايجادة في حالة `(Open)` 
+أيضا بنفس الملف سوف نجد  عدد `(Ports)` تم  ايجادة في حالة `(Open)` 
 ![](https://i.ibb.co/ZRrcHPT/q12.png)
  
 12- `(The employee engaged in a Skype conversation with someone. What is the skype username of the other party)`
