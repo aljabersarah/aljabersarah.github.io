@@ -31,6 +31,9 @@ title: حل تحدي  Hunter من Cyberdefenders
 3. What was the DHCP LeaseObtainedTime
 4. How many times did this user log on to the computer
 5. What is the computer SID
+6. What is the Operating System(OS) version
+7. What was the computer timezone?
+8. When was the last login time for the discovered account?
 
 
 
@@ -76,6 +79,7 @@ title: حل تحدي  Hunter من Cyberdefenders
 
 5- نستطيع استخراج computer SID من خلال البحث في مسار 
 `(HKEY_LOCAL_MACHINESAM\SAM\Domains\Account)`
+
 ![](https://i.ibb.co/4gfYbb8/Q5.png)
 
 هنا سوف نجد قيمتين F و V 
@@ -112,3 +116,12 @@ title: حل تحدي  Hunter من Cyberdefenders
 `(S-1-5-21-2489440558-2754304563-710705792)`
 
 
+6- نجد هذه الإجابة في هذا المسار 
+`(HKEY_LOCAL_MACHINESAM\SOFTWARE\Microsoft\Windows NT\CurrentVersion)`
+
+![](https://i.ibb.co/kKNTjZh/q6.png)
+
+7- 
+8- لحل هذا السؤال سوف أقوم بالاستعانة بأداة `(Reg Ripper)`  
+وسوف نقوم تحليل مفتاح SAM  تحديدًا 
+![](https://i.ibb.co/zQtYVRw/q8.png)
