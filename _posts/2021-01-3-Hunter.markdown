@@ -12,7 +12,6 @@ title: حل تحدي  Hunter من  منصة Cyberdefenders
 ## عناصر المقالة 
 
 - مقدمة 
-- الأسئلة 
 - الحل 
 
 
@@ -25,33 +24,6 @@ title: حل تحدي  Hunter من  منصة Cyberdefenders
 رابط التحدي
 
  https://cyberdefenders.org/labs/32 
-
- 
-## الأسئلة 
-1. What is the computer name of the suspect machine
-2. What is the computer IP
-3. What was the DHCP LeaseObtainedTime
-4. How many times did this user log on to the computer
-5. What is the computer SID
-6. What is the Operating System(OS) version
-7. When was the last login time for the discovered account?
-8. There was a “Network Scanner” running on this computer, what was it? And when was the last time the suspect used it
-9. When did the port scan start and end 
-10. How many ports were scanned	
-11. What ports were found "open"
-12. The employee engaged in a Skype conversation with someone. What is the skype username of the other party
-13. What is the name of the application both parties agreed to use to exfiltrate data and provide remote access for the external attacker in their Skype conversation? And when did the suspect run it 
-14. What is the Gmail email address of the suspect employee
-15. It looks like the suspect user deleted an important diagram after his conversation with the external attacker. What is the file name of the deleted diagram
-16. 	The user Documents' directory contained a PDF file discussing data exfiltration techniques. What is the name of the file 
-17. The suspect user downloaded a Nmap installer. What version did he download
-18. What are the serial numbers of the two identified USB storage
-19. How many prefetch files were discovered on the system
-20. The suspect employee tried to exfiltrate data by sending it as an email attachment. What is the name of the suspected attachment
-21. Shellbags shows that the employee created a folder to include all the data he will exfiltrate. What is the full path of that folder 
-22. Provide the name of the directory where information about jump lists items (created automatically by the system) is stored?
-23. Using JUMP LIST analysis, provide the full path of the application with the AppID of "aa28770954eaeaaa" used to bypass network security monitoring controls.
-
 
 
 ## الحل 
