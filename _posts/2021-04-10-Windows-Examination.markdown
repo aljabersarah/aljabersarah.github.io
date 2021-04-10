@@ -135,7 +135,7 @@ title: Windows Examination (تحليل النظام)
  
  يمكن أيضا تحديدد المخرجات المراد النظر فيها بشكل خاص بإستخدام get ومن ثم كتابة المخرجات يفصل بينها , 
 
-` wmic process where processid=23580 get name,commandline,processid,parentprocessid`    
+`wmic process where processid=23580 get name,commandline,processid,parentprocessid`    
 
 ![](https://i.ibb.co/XxdztP7/9.png)
 
