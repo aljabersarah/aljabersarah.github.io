@@ -144,9 +144,9 @@ title: Windows Examination (تحليل النظام)
  
 
 ## <span style="color:red"> Accounts  </span>
-يمكن البحث عن الحسابات المرتبطة ب الجهاز تحديداً ك administrators بإستخدام هذا الأمر, هذا الامر يساعدنا في ما اذا كان هنا اثر لحساب مشبوه لم يتم إنشاءة من قبل المستخدم أو Admin 
-`net localgroup administrators`
-13
+يمكن البحث عن الحسابات المرتبطة ب الجهاز تحديداً ك administrators بإستخدام هذا الأمر `net localgroup administrators`
+  , هذا الامر يساعدنا في ما اذا كان هناك اثر لحساب مشبوه لم يتم إنشاءة من قبل المستخدم أو Admin 
+ 13
 ![](https://i.ibb.co/7CzMTWd/13.png)
 
 
