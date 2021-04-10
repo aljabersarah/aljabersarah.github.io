@@ -17,8 +17,8 @@ title: Windows Examination (تحليل النظام)
 - التحليل
 
 ## مقدمة 
-تحليل الوندوز من أهم الخطوات في عملية الإستجابة للحوادث الرقمية بعملية تحليل النظام بشكل سليم سوف نحصل على إجاب لعدة أسئلة أهمها التأكد من الحادثة وما إذا كان الجهاز مصاب أو لا.  
-يمكننا  تحليل النظام بعدة طرق مختلفة لكن في هذه المقالة سوف أستعين بعدة أوامر مهمة تمكننا من الحصول على إجابات وافية وتحليل مبدئي سليم.   
+تحليل الوندوز من أهم الخطوات في عملية الإستجابة للحوادث الرقمية بعملية تحليل النظام بشكل سليم سوف نحصل على إجابات لعدة أسئلة أهمها التأكد من الحادثة وما إذا كان الجهاز مصاب أو لا.  
+يمكننا  تحليل النظام بعدة طرق مختلفة لكن في هذه المقالة سوف أستعين بعدة أوامر مهمة تمكننا من الحصول على إجابات وتحليل مبدئي سليم.   
 
 ## التحليل 
 ## <span style="color:red"> Network</span>
@@ -39,7 +39,7 @@ title: Windows Examination (تحليل النظام)
 
  يمكننا معرفة تفاصيل الحالة  [من هنا ](https://docs.oracle.com/cd/E88353_01/html/E72487/netstat-8.html)
 
-يمكننا أيضا إستخادم الأمر   
+يمكننا أيضا إستخادم الأمر للحصول على رقم الprocess المرتبطة ب Listener  
 `netstat -nao`   
 
 ![](https://i.ibb.co/3BRjVX8/2.png)
@@ -54,12 +54,12 @@ title: Windows Examination (تحليل النظام)
  
 ![](https://i.ibb.co/wrY689w/4.png)
 
-أيضًا نستخدم الأمر بإستخادم هذا الأمر سوف نحصل على معلومات مهمة مثل: 
+أيضًا نستخدم الأمر `tasklist /v `   
+ بإستخدام هذا الأمر سوف نحصل على معلومات مهمة مثل: 
 - Image name 
 - PID 
 - user name   
-`tasklist /v `   
-
+ 
  
 ![](https://i.ibb.co/fq4bqz4/5.png)
 
@@ -112,7 +112,7 @@ title: Windows Examination (تحليل النظام)
 -  WriteOperationCount   
 -  WriteTransferCount   
 
-يمكن أيضا إستخدام wmic بشكل محدد أصر كأن نبحث عن تفأصيل process معينة  وتحديد قيم المخرجات التي نريد النظر فيها 
+يمكن أيضا إستخدام wmic بشكل محدد أكثر كأن نبحث عن تفأصيل process معينة  وتحديد قيم المخرجات التي نريد النظر فيها 
 بكتابة الاوامر التالية 
 - بالبحث عن الأسم:   
 `wmic process where name="svchost.exe" list full`   
@@ -120,18 +120,15 @@ title: Windows Examination (تحليل النظام)
 ![](https://i.ibb.co/YQd7nRG/7.png)
 
 - بالبحث عن رقم process:  
-`wmic process where parentprocessid=8 list full`    
+`wmic process where  processid=10452 list full`    
 
-8
+
 
 ![](https://i.ibb.co/kghSTCZ/8.png)
 
 - بالبحث عن parentprocess:    
+`wmic process where parentprocessid=8 list full`    
 
-`wmic process where processid=10452 get name,commandline,processid,parentprocessid`
-
-
- 10   
 
 ![](https://i.ibb.co/Sr6NHhm/10.png)
 
@@ -140,7 +137,6 @@ title: Windows Examination (تحليل النظام)
 
 ` wmic process where processid=23580 get name,commandline,processid,parentprocessid`    
 
-9 
 ![](https://i.ibb.co/XxdztP7/9.png)
 
 
